@@ -56,6 +56,8 @@ function mostraAlternativas() {
         const botaoAlternativas = document.createElement("button")
         botaoAlternativas.textContent = alternativa;
         caixaAlternativas.appendChild(botaoAlternativas);
+
+        console.log(alternativa);
     }
 }
 
