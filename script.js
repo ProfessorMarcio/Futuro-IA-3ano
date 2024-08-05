@@ -8,8 +8,14 @@ const perguntas = [
     {
         enunciado: "Que tipo de aprendizado você prefere?",
         alternativas: [
-            "Por meio de vídeos!",
-            "Por meio de leitura!"
+            {
+            texto: "A- Por meio de vídeos!",
+            afirmacao: "Afirmação A"
+            },
+            {
+            texto: "B- Por meio de leitura!",
+            afirmacao: "Afirmação B"
+            }
         ]
     },
     {
